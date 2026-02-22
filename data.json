@@ -1,0 +1,79 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hello", "hi", "hey", "good morning", "good evening"],
+      "responses": ["Hello! How can I assist you today?", "Hi there! Ask me anything about village services."]
+    },
+    {
+      "tag": "schemes",
+      "patterns": ["government scheme", "pm kisan", "farmer subsidy", "central scheme", "state scheme"],
+      "responses": ["You can check PM-KISAN and other schemes on the official government portal."]
+    },
+    {
+      "tag": "health_services",
+      "patterns": ["hospital", "health center", "doctor near me", "health services", "clinic nearby"],
+      "responses": ["You can visit your nearest Primary Health Center (PHC) for medical assistance."]
+    },
+    {
+      "tag": "crop_disease",
+      "patterns": ["crop disease", "plant infection", "leaf spots", "pest attack", "crop problem"],
+      "responses": ["Please consult your local agricultural officer for crop disease inspection and treatment advice."]
+    },
+    {
+      "tag": "fertilizer_advice",
+      "patterns": ["fertilizer suggestion", "which fertilizer", "soil nutrients", "urea usage", "organic farming"],
+      "responses": ["You should conduct a soil test before applying fertilizers. Visit your nearest agriculture office."]
+    },
+    {
+      "tag": "market_price",
+      "patterns": ["market price", "crop rate", "mandi price", "selling price", "today price"],
+      "responses": ["You can check current mandi prices on the official Agmarknet portal."]
+    },
+    {
+      "tag": "loan_support",
+      "patterns": ["agriculture loan", "farmer loan", "bank loan", "loan scheme", "kisan credit card"],
+      "responses": ["You can apply for a Kisan Credit Card (KCC) at your nearest bank branch."]
+    },
+    {
+      "tag": "pension_scheme",
+      "patterns": ["pension scheme", "old age pension", "widow pension", "retirement benefits"],
+      "responses": ["You can apply for pension schemes at your local panchayat office."]
+    },
+    {
+      "tag": "water_issue",
+      "patterns": ["water problem", "water supply issue", "no water", "drinking water problem"],
+      "responses": ["Please report water supply issues to your local municipal office."]
+    },
+    {
+      "tag": "electricity_issue",
+      "patterns": ["power cut", "electricity problem", "no current", "electricity complaint"],
+      "responses": ["You can contact your local electricity board helpline to report outages."]
+    },
+    {
+      "tag": "sanitation",
+      "patterns": ["sanitation issue", "garbage problem", "cleanliness", "drainage issue"],
+      "responses": ["Please contact your village panchayat office to report sanitation issues."]
+    },
+    {
+      "tag": "education_support",
+      "patterns": ["scholarship", "education help", "student scheme", "school support"],
+      "responses": ["You can check government scholarship programs on the National Scholarship Portal."]
+    },
+    {
+      "tag": "emergency_contact",
+      "patterns": ["emergency number", "police contact", "ambulance number", "fire service number"],
+      "responses": ["Emergency numbers: Police - 100, Ambulance - 108, Fire - 101."]
+    },
+    {
+      "tag": "weather_update",
+      "patterns": ["weather today", "rain forecast", "temperature", "weather update"],
+      "responses": ["You can check the latest weather updates from the IMD website."]
+    },
+    {
+      "tag": "agriculture_subsidy",
+      "patterns": ["tractor subsidy", "equipment subsidy", "irrigation subsidy", "agriculture support scheme"],
+      "responses": ["You can inquire about agricultural subsidies at your district agriculture office."]
+    }
+  ]
+}
